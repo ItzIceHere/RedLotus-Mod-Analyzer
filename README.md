@@ -5,16 +5,16 @@ Please note that I have tried, with the help of many others, to test it as much 
 That said, the tool is far from perfect, so I ask you to use it wisely and analyze the results it gives you.
 That said, by my standards, I am quite satisfied with what I have managed to create.
 
-## 🔥 RedLotus Mod Analyzer
+# 🔥 RedLotus Mod Analyzer
 
-###📺 Presentation Clip
+##📺 Presentation Clip
 Quick tool showcase here: https://youtu.be/WzYlw8FagrA
 
-### ⚙️ Interface (GUI)
+## ⚙️ Interface (GUI)
 - MEMORY SCAN: Automatically detects the running javaw.exe process and scans the mods currently loaded in memory.
 - DISK SCAN: Allows you to manually select a specific mods folder from your disk to scan for threats.
 
-###🛠️ Features
+##🛠️ Features
 - Dashboard: The central hub for managing scan results.
 - Search & Filter: Instantly filter by Mod Name or toggle views for Unverified, Not Found, or Detected mods.
 - Smart Alerts: Visual warnings (⚠) if the mods folder was modified after the game started, alerting you to potential "self-destruct" or "hide" tactics.
@@ -27,7 +27,7 @@ Quick tool showcase here: https://youtu.be/WzYlw8FagrA
   - **Smart Filtering**: Journal checks only show modifications that occurred after Minecraft started (Memory Scan) or after system boot (Disk Scan), preventing false positives from old changes
   - **Bypass Detection**: Catches the many ways to unload, remove, and modify a mod after it has been used.
 ‎ 
-###🛡️ Advanced Detection Capabilities
+##🛡️ Advanced Detection Capabilities
 The Dynamic Detection Engine analyzes raw bytecode directly from memory. 
 I have analyzed over 800 cheat packages to calibrate the detection logic:
 
@@ -36,7 +36,7 @@ I have analyzed over 800 cheat packages to calibrate the detection logic:
 - Obfuscation Analysis: Detects heavy obfuscation (e.g., >30% single-letter classes) and flow obfuscation often used to hide illegitimate code.
 - Native Injection: Flags suspicious JNI injection vectors and unauthorized native libraries (.dll/.so) hidden within JARs.
 
-###🚀 Technical Optimizations
+##🚀 Technical Optimizations
 Implemented to ensure maximum performance and stability:
 - In-Memory Analysis: Uses miniz to decompress and analyze JAR files directly in RAM. This eliminates temporary files, resolves permission issues, and makes scanning 10x-50x faster.
 - Parallel Scanning: Utilizes multithreading to analyze multiple mods simultaneously, scaling linearly with your CPU cores.
